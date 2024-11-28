@@ -1,0 +1,35 @@
+/srv
+/home/ecalgit/CMSSW_14_1_4_patch5
+total 24
+drwxr-xr-x.   3 nobody nobody   29 Nov 25 17:03 biglib
+drwxr-xr-x.   3 nobody nobody   29 Nov 25 17:03 bin
+drwxr-xr-x.   3 nobody nobody   29 Nov 25 17:03 cfipython
+drwxr-xr-x.   4 nobody nobody 4096 Nov 25 17:03 config
+drwxr-xr-x.   2 nobody nobody    6 Nov 25 16:16 doc
+drwxr-xr-x.   3 nobody nobody   29 Nov 25 17:03 external
+drwxr-xr-x.   2 nobody nobody    6 Nov 25 16:16 include
+drwxr-xr-x.   3 nobody nobody   29 Nov 25 17:03 lib
+drwxr-xr-x.   3 nobody nobody   29 Nov 25 17:03 logs
+drwxr-xr-x.   3 nobody nobody   29 Nov 25 17:03 objs
+drwxr-xr-x. 142 nobody nobody 8192 Nov 25 17:03 python
+drwxr-xr-x.  10 nobody nobody 4096 Nov 25 17:03 src
+drwxr-xr-x.   3 nobody nobody   29 Nov 25 17:03 static
+drwxr-xr-x.   3 nobody nobody   29 Nov 25 17:03 test
+drwxr-xr-x.   4 nobody nobody   43 Nov 25 17:03 tmp
+/cvmfs/cms.cern.ch/share/overrides/python:/home/ecalgit/CMSSW_14_1_4_patch5/python:/home/ecalgit/CMSSW_14_1_4_patch5/lib/el8_amd64_gcc12:/cvmfs/cms.cern.ch/el8_amd64_gcc12/cms/cmssw-patch/CMSSW_14_1_4_patch5/python:/cvmfs/cms.cern.ch/el8_amd64_gcc12/cms/cmssw-patch/CMSSW_14_1_4_patch5/lib/el8_amd64_gcc12:/cvmfs/cms.cern.ch/el8_amd64_gcc12/cms/coral/CORAL_2_3_21-a02979274176804e1e269845631edece/el8_amd64_gcc12/python:/cvmfs/cms.cern.ch/el8_amd64_gcc12/cms/coral/CORAL_2_3_21-a02979274176804e1e269845631edece/el8_amd64_gcc12/lib:/cvmfs/cms.cern.ch/el8_amd64_gcc12/cms/cmssw/CMSSW_14_1_4/lib/el8_amd64_gcc12:/cvmfs/cms.cern.ch/el8_amd64_gcc12/cms/cmssw-patch-tools/1.0/lib/python3.9/site-packages:/home/ecalgit/CMSSW_14_1_4_patch5
+:/home/ecalgit/CMSSW_14_1_4_patch5
+RECO:bunchSpacingProducer+ecalMultiFitUncalibRecHitTask+ecalCalibratedRecHitTask,ALCA:EcalPhiSymByRun,ENDJOB
+We have determined that this is real data (if not, rerun cmsDriver.py with --mc)
+entry root://cms-xrd-global.cern.ch//store/data/Run2024I/AlCaPhiSym/RAW/v1/000/386/642/00000/2a58c39c-3fe7-4b4f-975e-877421ce236b.root
+entry root://cms-xrd-global.cern.ch//store/data/Run2024I/AlCaPhiSym/RAW/v1/000/386/642/00000/c5b486e0-8ccd-47ef-931d-ade153c47d51.root
+entry root://cms-xrd-global.cern.ch//store/data/Run2024I/AlCaPhiSym/RAW/v1/000/386/642/00000/70236f88-7101-4e80-8766-3d268dd49775.root
+entry root://cms-xrd-global.cern.ch//store/data/Run2024I/AlCaPhiSym/RAW/v1/000/386/642/00000/1687146d-c120-48ae-a74f-ade4248c8f7d.root
+entry root://cms-xrd-global.cern.ch//store/data/Run2024I/AlCaPhiSym/RAW/v1/000/386/642/00000/1f415b53-6b74-4ba4-9891-fcfaed7fc3f5.root
+entry root://cms-xrd-global.cern.ch//store/data/Run2024I/AlCaPhiSym/RAW/v1/000/386/642/00000/b633210e-150c-4234-831f-cc0385325ad2.root
+entry root://cms-xrd-global.cern.ch//store/data/Run2024I/AlCaPhiSym/RAW/v1/000/386/642/00000/758b88f8-49a8-470a-9a98-3d48c7046a4b.root
+entry root://cms-xrd-global.cern.ch//store/data/Run2024I/AlCaPhiSym/RAW/v1/000/386/642/00000/c28c7fcb-69ab-4b38-af43-dbbd2f877478.root
+entry root://cms-xrd-global.cern.ch//store/data/Run2024I/AlCaPhiSym/RAW/v1/000/386/642/00000/61f4053c-9443-4665-b841-0b572ff1d89e.root
+entry root://cms-xrd-global.cern.ch//store/data/Run2024I/AlCaPhiSym/RAW/v1/000/386/642/00000/8cec7e4a-33de-4af6-a20f-b3ae7b8e8866.root
+Step: RECO Spec: ['bunchSpacingProducer', 'ecalMultiFitUncalibRecHitTask', 'ecalCalibratedRecHitTask']
+Step: ALCA Spec: ['EcalPhiSymByRun']
+Step: ENDJOB Spec: 
