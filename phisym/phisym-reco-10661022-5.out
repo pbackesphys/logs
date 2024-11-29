@@ -1,0 +1,37 @@
+Some automation commands require a valid grid proxy.
+For those the automation T0 API is expecting a path to a VOMS proxy file in the X509_USER_PROXY environment variable which is set to '/pool/condor/dir_1612937/grid_proxy.x509'.
+If needed, the file itself can be generated e.g. with 'voms-proxy-init --voms cms --out $HOME/grid_proxy.x509' before starting the singularity container.
+Alternatively, the X509_USER_PROXY environment variable can be set to point to an existing VOMS proxy file.
+/srv
+/srv
+total 208
+-rw-r--r--. 1 pbackes zh 147382 Nov 29 15:44 _condor_stderr
+-rw-r--r--. 1 pbackes zh    502 Nov 29 15:44 _condor_stdout
+-rw-r--r--. 1 pbackes zh   1840 Nov 29 15:44 alcanano_customize.py
+-rwxr-xr-x. 1 pbackes zh   1851 Nov 29 15:44 batch_script.sh
+drwxr-xr-x. 2 pbackes zh      6 Nov 29 15:44 output
+-rw-------. 1 pbackes zh   3179 Nov 29 15:44 pbackes.cc
+drwxr-x---. 6 pbackes zh     51 Nov 29 15:44 scratch
+drwx------. 2 pbackes zh      6 Nov 29 15:44 srv
+drwx------. 2 pbackes zh      6 Nov 29 15:44 tmp
+drwx------. 3 pbackes zh     17 Nov 29 15:44 var
+drwxrwxrwt. 2 pbackes zh      6 Nov 29 15:44 var_tmp
+/cvmfs/cms.cern.ch/share/overrides/python:/home/ecalgit/CMSSW_14_1_5_patch1/python:/home/ecalgit/CMSSW_14_1_5_patch1/lib/el8_amd64_gcc12:/cvmfs/cms.cern.ch/el8_amd64_gcc12/cms/cmssw-patch/CMSSW_14_1_5_patch1/python:/cvmfs/cms.cern.ch/el8_amd64_gcc12/cms/cmssw-patch/CMSSW_14_1_5_patch1/lib/el8_amd64_gcc12:/cvmfs/cms.cern.ch/el8_amd64_gcc12/cms/coral/CORAL_2_3_21-a02979274176804e1e269845631edece/el8_amd64_gcc12/python:/cvmfs/cms.cern.ch/el8_amd64_gcc12/cms/coral/CORAL_2_3_21-a02979274176804e1e269845631edece/el8_amd64_gcc12/lib:/cvmfs/cms.cern.ch/el8_amd64_gcc12/cms/cmssw/CMSSW_14_1_5/lib/el8_amd64_gcc12:/cvmfs/cms.cern.ch/el8_amd64_gcc12/cms/cmssw-patch-tools/1.0-e8c01158489f29d1ab2ba0ffc672be37/lib/python3.9/site-packages:/srv
+:/srv
+RECO:bunchSpacingProducer+ecalMultiFitUncalibRecHitTask+ecalCalibratedRecHitTask,ALCA:EcalPhiSymByRun,ENDJOB
+We have determined that this is real data (if not, rerun cmsDriver.py with --mc)
+entry root://cms-xrd-global.cern.ch//store/data/Run2024I/AlCaPhiSym/RAW/v1/000/386/642/00000/21754725-8962-4f51-b6e7-5021143bc79e.root
+entry root://cms-xrd-global.cern.ch//store/data/Run2024I/AlCaPhiSym/RAW/v1/000/386/642/00000/4e97e6df-a36e-47f5-a83c-72310b06a6d0.root
+entry root://cms-xrd-global.cern.ch//store/data/Run2024I/AlCaPhiSym/RAW/v1/000/386/642/00000/a02bf6a9-f139-4330-81a5-9b89b4e4b2fa.root
+entry root://cms-xrd-global.cern.ch//store/data/Run2024I/AlCaPhiSym/RAW/v1/000/386/642/00000/ddcbaa15-b6ff-410c-b84b-8dc055fa6f90.root
+entry root://cms-xrd-global.cern.ch//store/data/Run2024I/AlCaPhiSym/RAW/v1/000/386/642/00000/d640b4c6-fc9d-47c1-ae09-eac33d6dfe88.root
+entry root://cms-xrd-global.cern.ch//store/data/Run2024I/AlCaPhiSym/RAW/v1/000/386/642/00000/a3047239-a7ba-440e-845c-98d52db268c9.root
+entry root://cms-xrd-global.cern.ch//store/data/Run2024I/AlCaPhiSym/RAW/v1/000/386/642/00000/050d656a-8de0-467f-a71e-d784a69488ff.root
+entry root://cms-xrd-global.cern.ch//store/data/Run2024I/AlCaPhiSym/RAW/v1/000/386/642/00000/a0eebec5-8a10-4114-918f-b5cf52680056.root
+entry root://cms-xrd-global.cern.ch//store/data/Run2024I/AlCaPhiSym/RAW/v1/000/386/642/00000/005b44a4-b418-4925-8b42-8fd0717be61e.root
+entry root://cms-xrd-global.cern.ch//store/data/Run2024I/AlCaPhiSym/RAW/v1/000/386/642/00000/f9afb81c-ed3d-4cd0-a5f8-567c3b676342.root
+Step: RECO Spec: ['bunchSpacingProducer', 'ecalMultiFitUncalibRecHitTask', 'ecalCalibratedRecHitTask']
+Step: ALCA Spec: ['EcalPhiSymByRun']
+Step: ENDJOB Spec: 
+customising the process with customise from alcanano_customize
+Config file EcalPhiSymReco_cfg.py created
