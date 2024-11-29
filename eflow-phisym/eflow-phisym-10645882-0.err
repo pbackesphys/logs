@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/eos/home-p/pbackes/ecalphisym/calibration/eflow_processor.py", line 89, in <module>
+    out = iterative_run(
+  File "/home/ecalgit/CMSSW_14_1_5_patch1/python/coffea/processor/executor.py", line 1686, in __call__
+    wrapped_out = self.run(fileset, processor_instance, treename)
+  File "/home/ecalgit/CMSSW_14_1_5_patch1/python/coffea/processor/executor.py", line 1834, in run
+    wrapped_out, e = executor(chunks, closure, None)
+TypeError: cannot unpack non-iterable NoneType object
