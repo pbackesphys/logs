@@ -1,0 +1,34 @@
+/srv
+/srv
+total 220
+-rw-r--r--. 1 pbackes zh   8894 Jan 14 16:52 EcalPhiSymReco_cfg.py
+-rw-r--r--. 1 pbackes zh 147377 Jan 14 16:52 _condor_stderr
+-rw-r--r--. 1 pbackes zh     10 Jan 14 16:52 _condor_stdout
+-rw-r--r--. 1 pbackes zh   1840 Jan 14 16:52 alcanano_customize.py
+-rwxr-xr-x. 1 pbackes zh   1851 Jan 14 16:52 batch_script.sh
+drwxr-xr-x. 2 pbackes zh      6 Jan 14 16:52 output
+-rw-------. 1 pbackes zh   3011 Jan 14 16:52 pbackes.cc
+drwxr-x---. 6 pbackes zh     51 Jan 14 16:52 scratch
+drwx------. 2 pbackes zh      6 Jan 14 16:52 srv
+drwx------. 2 pbackes zh      6 Jan 14 16:52 tmp
+drwx------. 3 pbackes zh     17 Jan 14 16:52 var
+drwxrwxrwt. 2 pbackes zh      6 Jan 14 16:52 var_tmp
+/cvmfs/cms.cern.ch/share/overrides/python:/home/ecalgit/CMSSW_14_1_5_patch1/python:/home/ecalgit/CMSSW_14_1_5_patch1/lib/el8_amd64_gcc12:/cvmfs/cms.cern.ch/el8_amd64_gcc12/cms/cmssw-patch/CMSSW_14_1_5_patch1/python:/cvmfs/cms.cern.ch/el8_amd64_gcc12/cms/cmssw-patch/CMSSW_14_1_5_patch1/lib/el8_amd64_gcc12:/cvmfs/cms.cern.ch/el8_amd64_gcc12/cms/coral/CORAL_2_3_21-a02979274176804e1e269845631edece/el8_amd64_gcc12/python:/cvmfs/cms.cern.ch/el8_amd64_gcc12/cms/coral/CORAL_2_3_21-a02979274176804e1e269845631edece/el8_amd64_gcc12/lib:/cvmfs/cms.cern.ch/el8_amd64_gcc12/cms/cmssw/CMSSW_14_1_5/lib/el8_amd64_gcc12:/cvmfs/cms.cern.ch/el8_amd64_gcc12/cms/cmssw-patch-tools/1.0-e8c01158489f29d1ab2ba0ffc672be37/lib/python3.9/site-packages:/srv
+:/srv
+RECO:bunchSpacingProducer+ecalMultiFitUncalibRecHitTask+ecalCalibratedRecHitTask,ALCA:EcalPhiSymByRun,ENDJOB
+We have determined that this is real data (if not, rerun cmsDriver.py with --mc)
+entry root://cms-xrd-global.cern.ch//store/data/Run2024I/AlCaPhiSym/RAW/v1/000/386/640/00000/2d9ac1de-4191-4fcf-898e-d0e7d5dd13d3.root
+entry root://cms-xrd-global.cern.ch//store/data/Run2024I/AlCaPhiSym/RAW/v1/000/386/640/00000/6fa2fefd-565f-4225-b9f8-4d19a992a254.root
+entry root://cms-xrd-global.cern.ch//store/data/Run2024I/AlCaPhiSym/RAW/v1/000/386/640/00000/614a723e-3850-489d-af0c-7dedf869499b.root
+entry root://cms-xrd-global.cern.ch//store/data/Run2024I/AlCaPhiSym/RAW/v1/000/386/640/00000/7fa40625-f2b5-491a-800f-9eab10e9764f.root
+entry root://cms-xrd-global.cern.ch//store/data/Run2024I/AlCaPhiSym/RAW/v1/000/386/640/00000/83c3b991-2c45-4d98-b7a1-6ccaf48d55cf.root
+entry root://cms-xrd-global.cern.ch//store/data/Run2024I/AlCaPhiSym/RAW/v1/000/386/640/00000/297a52be-e3c9-459a-9cf3-0c5ffa09aeef.root
+entry root://cms-xrd-global.cern.ch//store/data/Run2024I/AlCaPhiSym/RAW/v1/000/386/640/00000/be7ddb2c-e141-4b13-ac8a-063d1185c8d5.root
+entry root://cms-xrd-global.cern.ch//store/data/Run2024I/AlCaPhiSym/RAW/v1/000/386/640/00000/c226ce2f-c196-47a6-a2ae-7ab6c17d805a.root
+entry root://cms-xrd-global.cern.ch//store/data/Run2024I/AlCaPhiSym/RAW/v1/000/386/640/00000/6d70ba83-27ca-453d-9a8a-2cd4fd3e729b.root
+entry root://cms-xrd-global.cern.ch//store/data/Run2024I/AlCaPhiSym/RAW/v1/000/386/640/00000/3689d7ba-4ff3-4d8d-a249-e7aa91a231f5.root
+Step: RECO Spec: ['bunchSpacingProducer', 'ecalMultiFitUncalibRecHitTask', 'ecalCalibratedRecHitTask']
+Step: ALCA Spec: ['EcalPhiSymByRun']
+Step: ENDJOB Spec: 
+customising the process with customise from alcanano_customize
+Config file EcalPhiSymReco_cfg.py created

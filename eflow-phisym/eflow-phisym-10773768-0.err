@@ -1,0 +1,10 @@
+usage: ecalautomation.py jobctrl [-h] (--idle | --running | --failed | --done)
+                                 --id ID [--fields FIELDS [FIELDS ...]]
+ecalautomation.py jobctrl: error: argument --id: expected one argument
+  File "/eos/home-p/pbackes/automation/workflows/eflow-phisym/eflow_processor.py", line 35
+    parser.add_argument("--jid",             action="store",      type=str,    default='0'          help="list of input file directories:: to retrieve files from ecalutomation, see doc (not yet)" )
+                                                                                                    ^
+SyntaxError: invalid syntax
+usage: ecalautomation.py jobctrl [-h] (--idle | --running | --failed | --done)
+                                 --id ID [--fields FIELDS [FIELDS ...]]
+ecalautomation.py jobctrl: error: argument --id: expected one argument

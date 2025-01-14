@@ -1,0 +1,9 @@
+usage: ecalautomation.py [-h] -c CAMPAIGN -w TASK [-t TAGS] [--db DBNAME]
+                         {exist,submit,jobctrl,status,wait,getfiles,setfile}
+                         ...
+ecalautomation.py: error: argument subcommand: invalid choice: "'-w" (choose from 'exist', 'submit', 'jobctrl', 'status', 'wait', 'getfiles', 'setfile')
+python3: can't open file '/srv/eflow_processor.py': [Errno 2] No such file or directory
+usage: ecalautomation.py [-h] -c CAMPAIGN -w TASK [-t TAGS] [--db DBNAME]
+                         {exist,submit,jobctrl,status,wait,getfiles,setfile}
+                         ...
+ecalautomation.py: error: argument subcommand: invalid choice: "'-w" (choose from 'exist', 'submit', 'jobctrl', 'status', 'wait', 'getfiles', 'setfile')

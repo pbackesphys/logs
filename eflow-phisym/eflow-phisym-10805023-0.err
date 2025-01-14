@@ -1,0 +1,16 @@
+/home/ecalgit/CMSSW_14_1_5_patch1/python/awkward/_connect/_numpy.py:197: RuntimeWarning: invalid value encountered in divide
+  result = getattr(ufunc, method)(
+/home/ecalgit/CMSSW_14_1_5_patch1/python/numpy/core/getlimits.py:549: UserWarning: The value of the smallest subnormal for <class 'numpy.float64'> type is zero.
+  setattr(self, word, getattr(machar, word).flat[0])
+/home/ecalgit/CMSSW_14_1_5_patch1/python/numpy/core/getlimits.py:89: UserWarning: The value of the smallest subnormal for <class 'numpy.float64'> type is zero.
+  return self._float_to_str(self.smallest_subnormal)
+Traceback (most recent call last):
+  File "/eos/home-p/pbackes/ecalphisym/calibration/eflow_processor.py", line 230, in <module>
+    weights = rctrl.getOutput(process = 'eflow-weights', runs = runs)
+  File "/home/ecalgit/CMSSW_14_1_5_patch1/python/ecalautoctrl/RunCtrl.py", line 415, in getOutput
+    return self.getField(process=process, field='output', runs=runs, fills=fills, era=era)
+  File "/home/ecalgit/CMSSW_14_1_5_patch1/python/ecalautoctrl/RunCtrl.py", line 375, in getField
+    if not runs and not fills and not era:
+  File "/home/ecalgit/CMSSW_14_1_5_patch1/python/awkward/highlevel.py", line 1489, in __bool__
+    raise ValueError(
+ValueError: the truth value of an array whose length is not 1 is ambiguous; use ak.any() or ak.all()

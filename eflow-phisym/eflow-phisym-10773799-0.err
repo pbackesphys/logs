@@ -1,0 +1,12 @@
+usage: ecalautomation.py [-h] -c CAMPAIGN -w TASK [-t TAGS] [--db DBNAME]
+                         {exist,submit,jobctrl,status,wait,getfiles,setfile}
+                         ...
+ecalautomation.py: error: the following arguments are required: -c/--campaign, -w/--task
+Traceback (most recent call last):
+  File "/eos/home-p/pbackes/automation/workflows/eflow-phisym/eflow_processor.py", line 13, in <module>
+    from EcalPhiSymProcessor import EcalPhiSymAccumulator, Processor
+ModuleNotFoundError: No module named 'EcalPhiSymProcessor'
+usage: ecalautomation.py [-h] -c CAMPAIGN -w TASK [-t TAGS] [--db DBNAME]
+                         {exist,submit,jobctrl,status,wait,getfiles,setfile}
+                         ...
+ecalautomation.py: error: the following arguments are required: -c/--campaign, -w/--task

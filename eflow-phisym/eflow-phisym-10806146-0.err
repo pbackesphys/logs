@@ -1,0 +1,21 @@
+/afs/cern.ch/user/p/pbackes/.local/lib/python3.9/site-packages/coffea/nanoevents/schemas/fcc.py:5: FutureWarning: In version 2025.1.0 (target date: 2024-12-31 11:59:59-06:00), this will be an error.
+To raise these warnings as errors (and get stack traces to find out where they're called), run
+    import warnings
+    warnings.filterwarnings("error", module="coffea.*")
+after the first `import coffea` or use `@pytest.mark.filterwarnings("error:::coffea.*")` in pytest.
+Issue: coffea.nanoevents.methods.vector will be removed and replaced with scikit-hep vector. Nanoevents schemas internal to coffea will be migrated. Otherwise please consider using that package!.
+  from coffea.nanoevents.methods import vector
+/home/ecalgit/CMSSW_14_1_5_patch1/python/numpy/core/getlimits.py:549: UserWarning: The value of the smallest subnormal for <class 'numpy.float32'> type is zero.
+  setattr(self, word, getattr(machar, word).flat[0])
+/home/ecalgit/CMSSW_14_1_5_patch1/python/numpy/core/getlimits.py:89: UserWarning: The value of the smallest subnormal for <class 'numpy.float32'> type is zero.
+  return self._float_to_str(self.smallest_subnormal)
+/home/ecalgit/CMSSW_14_1_5_patch1/python/numpy/core/getlimits.py:549: UserWarning: The value of the smallest subnormal for <class 'numpy.float64'> type is zero.
+  setattr(self, word, getattr(machar, word).flat[0])
+/home/ecalgit/CMSSW_14_1_5_patch1/python/numpy/core/getlimits.py:89: UserWarning: The value of the smallest subnormal for <class 'numpy.float64'> type is zero.
+  return self._float_to_str(self.smallest_subnormal)
+/afs/cern.ch/user/p/pbackes/.local/lib/python3.9/site-packages/numba/core/cpu.py:99: UserWarning: Numba extension module 'awkward.numba' failed to load due to 'AttributeError(module 'awkward.numba' has no attribute 'register')'.
+  numba.core.entrypoints.init_all()
+Traceback (most recent call last):
+  File "/eos/home-p/pbackes/gitlab/ecalphisym/calibration/eflow_processor.py", line 9, in <module>
+    from coffea.processor import AccumulatorABC, ProcessorABC, Runner, FuturesExecutor
+ImportError: cannot import name 'AccumulatorABC' from 'coffea.processor' (/afs/cern.ch/user/p/pbackes/.local/lib/python3.9/site-packages/coffea/processor/__init__.py)

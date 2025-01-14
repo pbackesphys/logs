@@ -1,0 +1,52 @@
+Received arguments: 10803068.0 0 eflow-phisym ecal_rerecos_v1 386642 10204 eflow_plots/10204/ /eos/cms/store/group/dpg_ecal/alca_ecalcalib/automation_replays/test_eflow_v1/eflow-phisym/eflow/ test_eflow_v1 386642
+1
+eflow-phisym
+2
+ecal_rerecos_v1
+3
+test_eflow_v1
+10803068.0
+0
+/eos/user/p/pbackes/ecalphisym
+run numbers: ['386642']
+Running on these files: 
+{'PhiSym': ['/eos/cms/store/group/dpg_ecal/alca_ecalcalib/automation_replays/test_eflow_v1/phisym/386642/phisymreco_nano_5.root', '/eos/cms/store/group/dpg_ecal/alca_ecalcalib/automation_replays/test_eflow_v1/phisym/386642/phisymreco_nano_3.root', '/eos/cms/store/group/dpg_ecal/alca_ecalcalib/automation_replays/test_eflow_v1/phisym/386642/phisymreco_nano_9.root', '/eos/cms/store/group/dpg_ecal/alca_ecalcalib/automation_replays/test_eflow_v1/phisym/386642/phisymreco_nano_2.root', '/eos/cms/store/group/dpg_ecal/alca_ecalcalib/automation_replays/test_eflow_v1/phisym/386642/phisymreco_nano_4.root', '/eos/cms/store/group/dpg_ecal/alca_ecalcalib/automation_replays/test_eflow_v1/phisym/386642/phisymreco_nano_8.root', '/eos/cms/store/group/dpg_ecal/alca_ecalcalib/automation_replays/test_eflow_v1/phisym/386642/phisymreco_nano_11.root', '/eos/cms/store/group/dpg_ecal/alca_ecalcalib/automation_replays/test_eflow_v1/phisym/386642/phisymreco_nano_1.root', '/eos/cms/store/group/dpg_ecal/alca_ecalcalib/automation_replays/test_eflow_v1/phisym/386642/phisymreco_nano_0.root', '/eos/cms/store/group/dpg_ecal/alca_ecalcalib/automation_replays/test_eflow_v1/phisym/386642/phisymreco_nano_7.root', '/eos/cms/store/group/dpg_ecal/alca_ecalcalib/automation_replays/test_eflow_v1/phisym/386642/phisymreco_nano_6.root', '/eos/cms/store/group/dpg_ecal/alca_ecalcalib/automation_replays/test_eflow_v1/phisym/386642/phisymreco_nano_10.root']}
+  Preprocessing 100% ━━━━━━━━━━━━━━━ 12/12 [ 0:00:00 < 0:00:00 | 24.0   file/s ]
+Merging (local)   8% ━                1/12 [ 0:00:00 < -:--:-- | ?    merges/s ]
+     Processing 100% ━━━━━━━━━━━━━━━━ 12/12 [ 0:00:05 < 0:00:00 | 2.9  chunk/s ]
+Merging (local)   8% ━                 1/12 [ 0:00:05 < -:--:-- | ?   merges/s ]
+12
+Fill: 0 and Run: 386642 
+ hits here 42312524 -- n hits before 0
+Fill: 0 and Run: 386642 
+ hits here 36409737 -- n hits before 42312524
+Fill: 0 and Run: 386642 
+ hits here 38708106 -- n hits before 78722261
+Fill: 0 and Run: 386642 
+ hits here 30188200 -- n hits before 117430367
+Fill: 0 and Run: 386642 
+ hits here 31372924 -- n hits before 147618567
+Fill: 0 and Run: 386642 
+ hits here 88390875 -- n hits before 178991491
+Fill: 0 and Run: 386642 
+ hits here 50331307 -- n hits before 267382366
+Fill: 0 and Run: 386642 
+ hits here 60050050 -- n hits before 317713673
+Fill: 0 and Run: 386642 
+ hits here 23681833 -- n hits before 377763723
+Fill: 0 and Run: 386642 
+ hits here 155393858 -- n hits before 401445556
+Fill: 0 and Run: 386642 
+ hits here 107995593 -- n hits before 556839414
+Fill: 0 and Run: 386642 
+ hits here 50361135 -- n hits before 664835007
+So this are the counts merged:: 
+   [0] 
+ These are the final splits: 
+  [12]
+Diveded in 1 IOVS --> These are the initial runs of the IOV: 
+ [386642]
+Diveded in 1 IOVS --> These are the final runs of the IOV: 
+ [386642]
+Number of hits for each IOV:  [[715196142]]
+Deriving the corrections...

@@ -1,0 +1,18 @@
+/home/ecalgit/CMSSW_14_1_5_patch1/python/awkward/_connect/_numpy.py:197: RuntimeWarning: invalid value encountered in divide
+  result = getattr(ufunc, method)(
+/home/ecalgit/CMSSW_14_1_5_patch1/python/numpy/core/getlimits.py:549: UserWarning: The value of the smallest subnormal for <class 'numpy.float64'> type is zero.
+  setattr(self, word, getattr(machar, word).flat[0])
+/home/ecalgit/CMSSW_14_1_5_patch1/python/numpy/core/getlimits.py:89: UserWarning: The value of the smallest subnormal for <class 'numpy.float64'> type is zero.
+  return self._float_to_str(self.smallest_subnormal)
+Traceback (most recent call last):
+  File "/eos/home-p/pbackes/gitlab/ecalphisym/calibration/eflow_processor.py", line 367, in <module>
+    jctrl.done(jid = jid, fields={'output': output_str[1:]})
+  File "/home/ecalgit/CMSSW_14_1_5_patch1/python/ecalautoctrl/JobCtrl.py", line 381, in done
+    self.setStatus(jid=jid, status=JobStatus.done, fields=fields)
+  File "/home/ecalgit/CMSSW_14_1_5_patch1/python/ecalautoctrl/JobCtrl.py", line 274, in setStatus
+    self.db.query(f'SELECT last(*) FROM "job" WHERE {self.match_tags} AND "id" = \'{str(jid)}\''))
+  File "/home/ecalgit/CMSSW_14_1_5_patch1/python/influxdb/client.py", line 532, in query
+    response = self.request(
+  File "/home/ecalgit/CMSSW_14_1_5_patch1/python/influxdb/client.py", line 389, in request
+    raise InfluxDBClientError(err_msg, response.status_code)
+influxdb.exceptions.InfluxDBClientError: 400: {"error":"error parsing query: found 386642, expected ; at line 1, char 128"}

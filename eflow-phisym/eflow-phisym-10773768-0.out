@@ -1,0 +1,14 @@
+Received arguments: eflow-phisym ecal_rerecos_v1 386642 10204 eflow_plots/10204/ /eos/cms/store/group/dpg_ecal/alca_ecalcalib/automation_replays/test_eflow_v1/eflow-phisym/eflow/ test_eflow_v1
+1
+eflow-phisym
+2
+ecal_rerecos_v1
+3
+test_eflow_v1
+
+
+Some automation commands require a valid grid proxy.
+For those the automation T0 API is expecting a path to a VOMS proxy file in the X509_USER_PROXY environment variable which is set to '/pool/condor/dir_1577212/grid_proxy.x509'.
+If needed, the file itself can be generated e.g. with 'voms-proxy-init --voms cms --out $HOME/grid_proxy.x509' before starting the singularity container.
+Alternatively, the X509_USER_PROXY environment variable can be set to point to an existing VOMS proxy file.
+/eos/user/p/pbackes/automation/workflows/eflow-phisym

@@ -1,0 +1,14 @@
+usage: ecalautomation.py [-h] -c CAMPAIGN -w TASK [-t TAGS] [--db DBNAME]
+                         {exist,submit,jobctrl,status,wait,getfiles,setfile}
+                         ...
+ecalautomation.py: error: argument subcommand: invalid choice: 'group:386642' (choose from 'exist', 'submit', 'jobctrl', 'status', 'wait', 'getfiles', 'setfile')
+Traceback (most recent call last):
+  File "/eos/home-p/pbackes/ecalphisym/calibration/eflow_processor.py", line 61, in <module>
+    os.makedirs(plot_outputdir)   
+  File "/cvmfs/cms.cern.ch/el8_amd64_gcc12/cms/cmssw-patch/CMSSW_14_1_5_patch1/external/el8_amd64_gcc12/bin/../../../../../../../el8_amd64_gcc12/external/python3/3.9.14-c10287ae9cadff55334e60003302c349/lib/python3.9/os.py", line 225, in makedirs
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'eflow_plots/10204/'
+usage: ecalautomation.py [-h] -c CAMPAIGN -w TASK [-t TAGS] [--db DBNAME]
+                         {exist,submit,jobctrl,status,wait,getfiles,setfile}
+                         ...
+ecalautomation.py: error: argument subcommand: invalid choice: 'group:386642' (choose from 'exist', 'submit', 'jobctrl', 'status', 'wait', 'getfiles', 'setfile')

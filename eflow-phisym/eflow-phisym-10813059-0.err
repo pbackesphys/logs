@@ -1,0 +1,4 @@
+  File "/eos/home-p/pbackes/gitlab/ecalphisym/calibration/eflow_processor.py", line 296
+    if doWeightedMean: plt.scatter(runs_merged_i[iovref:], eflow_w[iovref:,icry], marker='x' label='EFlow weighted')
+                                                                                             ^
+SyntaxError: invalid syntax

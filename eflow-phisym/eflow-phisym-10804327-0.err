@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/eos/home-p/pbackes/ecalphisym/calibration/eflow_processor.py", line 7, in <module>
+    from ecalphisym.ecalphisym.phisymnano import EcalPhiSymSchema
+ModuleNotFoundError: No module named 'ecalphisym.ecalphisym'

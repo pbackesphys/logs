@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/eos/home-p/pbackes/gitlab/ecalphisym/calibration/eflow_processor.py", line 36, in <module>
+    parser.add_argument("--fill",            action="store",      typr=int,                         help="the fill for this group of runs know theres only one because the processor uses @group_by_fill decorator")
+  File "/cvmfs/cms.cern.ch/el8_amd64_gcc12/external/python3/3.9.14-c10287ae9cadff55334e60003302c349/lib/python3.9/argparse.py", line 1423, in add_argument
+    action = action_class(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'typr'

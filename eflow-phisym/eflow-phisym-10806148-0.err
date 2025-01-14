@@ -1,0 +1,10 @@
+/home/ecalgit/CMSSW_14_1_5_patch1/python/awkward/_connect/_numpy.py:197: RuntimeWarning: invalid value encountered in divide
+  result = getattr(ufunc, method)(
+/home/ecalgit/CMSSW_14_1_5_patch1/python/numpy/core/getlimits.py:549: UserWarning: The value of the smallest subnormal for <class 'numpy.float64'> type is zero.
+  setattr(self, word, getattr(machar, word).flat[0])
+/home/ecalgit/CMSSW_14_1_5_patch1/python/numpy/core/getlimits.py:89: UserWarning: The value of the smallest subnormal for <class 'numpy.float64'> type is zero.
+  return self._float_to_str(self.smallest_subnormal)
+Traceback (most recent call last):
+  File "/eos/home-p/pbackes/gitlab/ecalphisym/calibration/eflow_processor.py", line 238, in <module>
+    with open(weights) as file:
+TypeError: expected str, bytes or os.PathLike object, not set

@@ -1,0 +1,10 @@
+usage: ecalautomation.py jobctrl [-h] (--idle | --running | --failed | --done)
+                                 --id ID [--fields FIELDS [FIELDS ...]]
+ecalautomation.py jobctrl: error: argument --id: expected one argument
+Traceback (most recent call last):
+  File "/eos/home-p/pbackes/automation/workflows/eflow-phisym/eflow_processor.py", line 7, in <module>
+    from ecalphisym import EcalPhiSymSchema
+ModuleNotFoundError: No module named 'ecalphisym'
+usage: ecalautomation.py jobctrl [-h] (--idle | --running | --failed | --done)
+                                 --id ID [--fields FIELDS [FIELDS ...]]
+ecalautomation.py jobctrl: error: argument --id: expected one argument

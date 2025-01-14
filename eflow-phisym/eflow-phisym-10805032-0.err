@@ -1,0 +1,12 @@
+RuntimeError: module was compiled against NumPy C-API version 0x10 (NumPy 1.23) but the running NumPy has C-API version 0xf. Check the section C-API incompatibility at the Troubleshooting ImportError section at https://numpy.org/devdocs/user/troubleshooting-importerror.html#c-api-incompatibility for indications on how to solve this problem.
+RuntimeError: module compiled against API version 0x10 but this version of numpy is 0xf . Check the section C-API incompatibility at the Troubleshooting ImportError section at https://numpy.org/devdocs/user/troubleshooting-importerror.html#c-api-incompatibility for indications on how to solve this problem .
+Traceback (most recent call last):
+  File "/eos/home-p/pbackes/ecalphisym/calibration/eflow_processor.py", line 4, in <module>
+    import matplotlib.pyplot as plt
+  File "/home/ecalgit/CMSSW_14_1_5_patch1/python/matplotlib/__init__.py", line 263, in <module>
+    _check_versions()
+  File "/home/ecalgit/CMSSW_14_1_5_patch1/python/matplotlib/__init__.py", line 259, in _check_versions
+    raise ImportError(f"Matplotlib requires {modname}>={minver}; "
+ImportError: Matplotlib requires numpy>=1.23; you have 1.22.4
+RuntimeError: module was compiled against NumPy C-API version 0x10 (NumPy 1.23) but the running NumPy has C-API version 0xf. Check the section C-API incompatibility at the Troubleshooting ImportError section at https://numpy.org/devdocs/user/troubleshooting-importerror.html#c-api-incompatibility for indications on how to solve this problem.
+RuntimeError: module compiled against API version 0x10 but this version of numpy is 0xf . Check the section C-API incompatibility at the Troubleshooting ImportError section at https://numpy.org/devdocs/user/troubleshooting-importerror.html#c-api-incompatibility for indications on how to solve this problem .

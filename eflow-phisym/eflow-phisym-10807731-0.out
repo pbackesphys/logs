@@ -1,0 +1,76 @@
+Received arguments: 10807731.0 0 eflow-phisym ecal_rerecos_v1 386642 10204 eflow_plots/10204/ /eos/cms/store/group/dpg_ecal/alca_ecalcalib/automation_replays/test_eflow_v1/eflow-phisym/eflow/ test_eflow_v1 386642
+1
+eflow-phisym
+2
+ecal_rerecos_v1
+3
+test_eflow_v1
+10807731.0
+0
+Some automation commands require a valid grid proxy.
+For those the automation T0 API is expecting a path to a VOMS proxy file in the X509_USER_PROXY environment variable which is set to '/pool/condor/dir_518787/grid_proxy.x509'.
+If needed, the file itself can be generated e.g. with 'voms-proxy-init --voms cms --out $HOME/grid_proxy.x509' before starting the singularity container.
+Alternatively, the X509_USER_PROXY environment variable can be set to point to an existing VOMS proxy file.
+/eos/user/p/pbackes/gitlab/ecalphisym
+run numbers: ['386642']
+Running on these files: 
+{'PhiSym': ['/eos/cms/store/group/dpg_ecal/alca_ecalcalib/automation_replays/test_eflow_v1/phisym/386642/phisymreco_nano_5.root', '/eos/cms/store/group/dpg_ecal/alca_ecalcalib/automation_replays/test_eflow_v1/phisym/386642/phisymreco_nano_8.root', '/eos/cms/store/group/dpg_ecal/alca_ecalcalib/automation_replays/test_eflow_v1/phisym/386642/phisymreco_nano_3.root', '/eos/cms/store/group/dpg_ecal/alca_ecalcalib/automation_replays/test_eflow_v1/phisym/386642/phisymreco_nano_10.root', '/eos/cms/store/group/dpg_ecal/alca_ecalcalib/automation_replays/test_eflow_v1/phisym/386642/phisymreco_nano_2.root', '/eos/cms/store/group/dpg_ecal/alca_ecalcalib/automation_replays/test_eflow_v1/phisym/386642/phisymreco_nano_6.root', '/eos/cms/store/group/dpg_ecal/alca_ecalcalib/automation_replays/test_eflow_v1/phisym/386642/phisymreco_nano_0.root', '/eos/cms/store/group/dpg_ecal/alca_ecalcalib/automation_replays/test_eflow_v1/phisym/386642/phisymreco_nano_7.root', '/eos/cms/store/group/dpg_ecal/alca_ecalcalib/automation_replays/test_eflow_v1/phisym/386642/phisymreco_nano_4.root', '/eos/cms/store/group/dpg_ecal/alca_ecalcalib/automation_replays/test_eflow_v1/phisym/386642/phisymreco_nano_9.root', '/eos/cms/store/group/dpg_ecal/alca_ecalcalib/automation_replays/test_eflow_v1/phisym/386642/phisymreco_nano_1.root', '/eos/cms/store/group/dpg_ecal/alca_ecalcalib/automation_replays/test_eflow_v1/phisym/386642/phisymreco_nano_11.root']}
+  Preprocessing 100% ━━━━━━━━━━━━━━━ 12/12 [ 0:00:00 < 0:00:00 | 29.4   file/s ]
+Merging (local) 100% ━━━━━━━━━━━━━━━ 12/12 [ 0:00:00 < 0:00:00 | ?    merges/s ]
+     Processing 100% ━━━━━━━━━━━━━━━━ 12/12 [ 0:00:04 < 0:00:00 | 3.0  chunk/s ]
+Merging (local) 100% ━━━━━━━━━━━━━━━━ 12/12 [ 0:00:05 < 0:00:00 | ?   merges/s ]
+runs:  [386642, 386642, 386642, 386642, 386642, ... 386642, 386642, 386642, 386642, 386642]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] <class 'awkward.highlevel.Array'>
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11] [386642, 386642, 386642, 386642, 386642, ... 386642, 386642, 386642, 386642, 386642]
+12
+Fill: 0 and Run: 386642 
+ hits here 60050050 -- n hits before 0
+Fill: 0 and Run: 386642 
+ hits here 50331307 -- n hits before 60050050
+Fill: 0 and Run: 386642 
+ hits here 88390875 -- n hits before 110381357
+Fill: 0 and Run: 386642 
+ hits here 155393858 -- n hits before 198772232
+Fill: 0 and Run: 386642 
+ hits here 42312524 -- n hits before 354166090
+Fill: 0 and Run: 386642 
+ hits here 36409737 -- n hits before 396478614
+Fill: 0 and Run: 386642 
+ hits here 23681833 -- n hits before 432888351
+Fill: 0 and Run: 386642 
+ hits here 30188200 -- n hits before 456570184
+Fill: 0 and Run: 386642 
+ hits here 38708106 -- n hits before 486758384
+Fill: 0 and Run: 386642 
+ hits here 107995593 -- n hits before 525466490
+Fill: 0 and Run: 386642 
+ hits here 31372924 -- n hits before 633462083
+Fill: 0 and Run: 386642 
+ hits here 50361135 -- n hits before 664835007
+So this are the counts merged:: 
+   [0] 
+ These are the final splits: 
+  [12]
+Diveded in 1 IOVS --> These are the initial runs of the IOV: 
+ [386642]
+Diveded in 1 IOVS --> These are the final runs of the IOV: 
+ [386642]
+Number of hits for each IOV:  [[715196142]]
+Deriving the corrections...
+Eta Weight file provided ...  {"['/eos/cms/store/group/dpg_ecal/alca_ecalcalib/automation_replays/test_eflow_v1/eflow-phisym/reweighting/10204/weights.txt']", ',/eos/cms/store/group/dpg_ecal/alca_ecalcalib/automation_replays/test_eflow_v1/eflow-phisym/reweighting/10204/weights.txt', '/eos/cms/store/group/dpg_ecal/alca_ecalcalib/automation_replays/test_eflow_v1/eflow-phisym/reweighting/10204//weights.txt', '/eos/cms/store/group/dpg_ecal/alca_ecalcalib/automation_replays/test_eflow_v1/eflow-phisym/reweighting/10204/weights.txt'}
+... saving histories in .root ...
+How much does it takes??? 0.18560552597045898 s
+... plotting ...
+Bad xstal i$\eta$ = -70 i$\phi$ = 301 ---> Skipping 
+Bad xstal i$\eta$ = -69 i$\phi$ = 241 ---> Skipping 
+Bad xstal i$\eta$ = -65 i$\phi$ = 201 ---> Skipping 
+Bad xstal i$\eta$ = -53 i$\phi$ = 181 ---> Skipping 
+Bad xstal i$\eta$ = -44 i$\phi$ = 241 ---> Skipping 
+Bad xstal i$\eta$ = -25 i$\phi$ = 301 ---> Skipping 
+Bad xstal i$\eta$ = -17 i$\phi$ = 21 ---> Skipping 
+Bad xstal i$\eta$ = -7 i$\phi$ = 221 ---> Skipping 
+Bad xstal i$\eta$ = -1 i$\phi$ = 61 ---> Skipping 
+Bad xstal i$\eta$ = 4 i$\phi$ = 21 ---> Skipping 
+Bad xstal i$\eta$ = 63 i$\phi$ = 281 ---> Skipping 
+Bad xstal i$\eta$ = 72 i$\phi$ = 341 ---> Skipping 
+... saved plots and now ICs in eflow_plots/10204/

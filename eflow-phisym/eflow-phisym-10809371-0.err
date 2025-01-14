@@ -1,0 +1,50 @@
+concurrent.futures.process._RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/el8_amd64_gcc12/external/python3/3.9.14-c10287ae9cadff55334e60003302c349/lib/python3.9/concurrent/futures/process.py", line 246, in _process_worker
+    r = call_item.fn(*call_item.args, **call_item.kwargs)
+  File "/home/ecalgit/CMSSW_14_1_5_patch1/python/coffea/processor/executor.py", line 1353, in automatic_retries
+    raise e
+  File "/home/ecalgit/CMSSW_14_1_5_patch1/python/coffea/processor/executor.py", line 1337, in automatic_retries
+    return func(*args, **kwargs)
+  File "/home/ecalgit/CMSSW_14_1_5_patch1/python/coffea/processor/executor.py", line 1601, in _work_function
+    factory = NanoEventsFactory.from_root(
+  File "/home/ecalgit/CMSSW_14_1_5_patch1/python/coffea/nanoevents/factory.py", line 124, in from_root
+    base_form = mapping._extract_base_form(
+  File "/home/ecalgit/CMSSW_14_1_5_patch1/python/coffea/nanoevents/mapping/uproot.py", line 105, in _extract_base_form
+    form = branch.interpretation.awkward_form(None)
+  File "/afs/cern.ch/user/p/pbackes/.local/lib/python3.9/site-packages/uproot/interpretation/numerical.py", line 272, in awkward_form
+    awkward = uproot.extras.awkward()
+  File "/afs/cern.ch/user/p/pbackes/.local/lib/python3.9/site-packages/uproot/extras.py", line 38, in awkward
+    raise ModuleNotFoundError(
+ModuleNotFoundError: Uproot 5.1+ can only be used with Awkward 2.4.6 or newer; you have Awkward 1.10.5
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ecalgit/CMSSW_14_1_5_patch1/python/coffea/processor/executor.py", line 786, in _processwith
+    merged = _watcher(FH, self, reducer, pool)
+  File "/home/ecalgit/CMSSW_14_1_5_patch1/python/coffea/processor/executor.py", line 402, in _watcher
+    batch = FH.fetch(len(FH.completed))
+  File "/home/ecalgit/CMSSW_14_1_5_patch1/python/coffea/processor/executor.py", line 286, in fetch
+    raise bad_futures[0].exception()
+ModuleNotFoundError: Uproot 5.1+ can only be used with Awkward 2.4.6 or newer; you have Awkward 1.10.5
+Traceback (most recent call last):
+  File "/eos/home-p/pbackes/gitlab/ecalphisym/calibration/eflow_processor.py", line 94, in <module>
+    out = iterative_run(
+  File "/home/ecalgit/CMSSW_14_1_5_patch1/python/coffea/processor/executor.py", line 1686, in __call__
+    wrapped_out = self.run(fileset, processor_instance, treename)
+  File "/home/ecalgit/CMSSW_14_1_5_patch1/python/coffea/processor/executor.py", line 1834, in run
+    wrapped_out, e = executor(chunks, closure, None)
+  File "/home/ecalgit/CMSSW_14_1_5_patch1/python/coffea/processor/executor.py", line 818, in __call__
+    return _processwith(pool=poolinstance, mergepool=mergepoolinstance)
+  File "/home/ecalgit/CMSSW_14_1_5_patch1/python/coffea/processor/executor.py", line 802, in _processwith
+    raise e from None
+  File "/home/ecalgit/CMSSW_14_1_5_patch1/python/coffea/processor/executor.py", line 786, in _processwith
+    merged = _watcher(FH, self, reducer, pool)
+  File "/home/ecalgit/CMSSW_14_1_5_patch1/python/coffea/processor/executor.py", line 402, in _watcher
+    batch = FH.fetch(len(FH.completed))
+  File "/home/ecalgit/CMSSW_14_1_5_patch1/python/coffea/processor/executor.py", line 286, in fetch
+    raise bad_futures[0].exception()
+ModuleNotFoundError: Uproot 5.1+ can only be used with Awkward 2.4.6 or newer; you have Awkward 1.10.5
