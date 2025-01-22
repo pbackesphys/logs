@@ -1,0 +1,40 @@
+Received arguments: 10961860.0 0 eflow-phisym ecal_rerecos_v1 386668 10207 eflow_plots/10207/ /eos/cms/store/group/dpg_ecal/alca_ecalcalib/automation_replays/test_eflow_v1/eflow-phisym/eflow/ test_eflow_v1 386668
+1
+eflow-phisym
+2
+ecal_rerecos_v1
+3
+test_eflow_v1
+10961860.0
+0
+Some automation commands require a valid grid proxy.
+For those the automation T0 API is expecting a path to a VOMS proxy file in the X509_USER_PROXY environment variable which is set to '/pool/condor/dir_599783/grid_proxy.x509'.
+If needed, the file itself can be generated e.g. with 'voms-proxy-init --voms cms --out $HOME/grid_proxy.x509' before starting the singularity container.
+Alternatively, the X509_USER_PROXY environment variable can be set to point to an existing VOMS proxy file.
+/eos/user/p/pbackes/gitlab/ecalphisym
+run numbers: ['386668']
+Running on these files: 
+{'PhiSym': ['/eos/cms/store/group/dpg_ecal/alca_ecalcalib/automation_replays/test_eflow_v1/phisym/386668/phisymreco_nano_0.root', '/eos/cms/store/group/dpg_ecal/alca_ecalcalib/automation_replays/test_eflow_v1/phisym/386668/phisymreco_nano_1.root']}
+  Preprocessing 100% ━━━━━━━━━━━━━━━━━ 2/2 [ 0:00:00 < 0:00:00 | 19.6   file/s ]
+Merging (local) 100% ━━━━━━━━━━━━━━━━━ 2/2 [ 0:00:00 < 0:00:00 | ?    merges/s ]
+     Processing 100% ━━━━━━━━━━━━━━━━━━ 2/2 [ 0:00:01 < 0:00:00 | 3.7  chunk/s ]
+Merging (local) 100% ━━━━━━━━━━━━━━━━━━ 2/2 [ 0:00:01 < 0:00:00 | ?   merges/s ]
+runs:  [386668, 386668]
+[0, 0] <class 'awkward.highlevel.Array'>
+[0, 1] [386668, 386668]
+2
+Fill: 0 and Run: 386668 
+ hits here 59797051 -- n hits before 0
+Fill: 0 and Run: 386668 
+ hits here 59603524 -- n hits before 59797051
+So this are the counts merged:: 
+   [0] 
+ These are the final splits: 
+  [2]
+Diveded in 1 IOVS --> These are the initial runs of the IOV: 
+ [386668]
+Diveded in 1 IOVS --> These are the final runs of the IOV: 
+ [386668]
+Number of hits for each IOV:  [[119400575]]
+Deriving the corrections...
+Eta Weight file provided ...  {'/eos/cms/store/group/dpg_ecal/alca_ecalcalib/automation_replays/test_eflow_v1/eflow-phisym/reweighting/10207/386668/weights.txt'}

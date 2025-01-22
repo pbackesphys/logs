@@ -1,0 +1,102 @@
+Received arguments: 10961858.0 0 eflow-phisym ecal_rerecos_v1 386640,386642 10204 eflow_plots/10204/ /eos/cms/store/group/dpg_ecal/alca_ecalcalib/automation_replays/test_eflow_v1/eflow-phisym/eflow/ test_eflow_v1 386642
+1
+eflow-phisym
+2
+ecal_rerecos_v1
+3
+test_eflow_v1
+10961858.0
+0
+/eos/user/p/pbackes/gitlab/ecalphisym
+run numbers: ['386640', '386642']
+Running on these files: 
+{'PhiSym': ['/eos/cms/store/group/dpg_ecal/alca_ecalcalib/automation_replays/test_eflow_v1/phisym/386640/phisymreco_nano_21.root', '/eos/cms/store/group/dpg_ecal/alca_ecalcalib/automation_replays/test_eflow_v1/phisym/386640/phisymreco_nano_5.root', '/eos/cms/store/group/dpg_ecal/alca_ecalcalib/automation_replays/test_eflow_v1/phisym/386640/phisymreco_nano_10.root', '/eos/cms/store/group/dpg_ecal/alca_ecalcalib/automation_replays/test_eflow_v1/phisym/386640/phisymreco_nano_11.root', '/eos/cms/store/group/dpg_ecal/alca_ecalcalib/automation_replays/test_eflow_v1/phisym/386642/phisymreco_nano_10.root', '/eos/cms/store/group/dpg_ecal/alca_ecalcalib/automation_replays/test_eflow_v1/phisym/386642/phisymreco_nano_3.root', '/eos/cms/store/group/dpg_ecal/alca_ecalcalib/automation_replays/test_eflow_v1/phisym/386640/phisymreco_nano_3.root', '/eos/cms/store/group/dpg_ecal/alca_ecalcalib/automation_replays/test_eflow_v1/phisym/386640/phisymreco_nano_19.root', '/eos/cms/store/group/dpg_ecal/alca_ecalcalib/automation_replays/test_eflow_v1/phisym/386640/phisymreco_nano_20.root', '/eos/cms/store/group/dpg_ecal/alca_ecalcalib/automation_replays/test_eflow_v1/phisym/386642/phisymreco_nano_9.root', '/eos/cms/store/group/dpg_ecal/alca_ecalcalib/automation_replays/test_eflow_v1/phisym/386642/phisymreco_nano_6.root', '/eos/cms/store/group/dpg_ecal/alca_ecalcalib/automation_replays/test_eflow_v1/phisym/386642/phisymreco_nano_7.root', '/eos/cms/store/group/dpg_ecal/alca_ecalcalib/automation_replays/test_eflow_v1/phisym/386640/phisymreco_nano_22.root', '/eos/cms/store/group/dpg_ecal/alca_ecalcalib/automation_replays/test_eflow_v1/phisym/386642/phisymreco_nano_1.root', '/eos/cms/store/group/dpg_ecal/alca_ecalcalib/automation_replays/test_eflow_v1/phisym/386642/phisymreco_nano_11.root', '/eos/cms/store/group/dpg_ecal/alca_ecalcalib/automation_replays/test_eflow_v1/phisym/386642/phisymreco_nano_2.root', '/eos/cms/store/group/dpg_ecal/alca_ecalcalib/automation_replays/test_eflow_v1/phisym/386640/phisymreco_nano_14.root', '/eos/cms/store/group/dpg_ecal/alca_ecalcalib/automation_replays/test_eflow_v1/phisym/386640/phisymreco_nano_1.root', '/eos/cms/store/group/dpg_ecal/alca_ecalcalib/automation_replays/test_eflow_v1/phisym/386640/phisymreco_nano_8.root', '/eos/cms/store/group/dpg_ecal/alca_ecalcalib/automation_replays/test_eflow_v1/phisym/386640/phisymreco_nano_0.root', '/eos/cms/store/group/dpg_ecal/alca_ecalcalib/automation_replays/test_eflow_v1/phisym/386642/phisymreco_nano_0.root', '/eos/cms/store/group/dpg_ecal/alca_ecalcalib/automation_replays/test_eflow_v1/phisym/386640/phisymreco_nano_6.root', '/eos/cms/store/group/dpg_ecal/alca_ecalcalib/automation_replays/test_eflow_v1/phisym/386640/phisymreco_nano_9.root', '/eos/cms/store/group/dpg_ecal/alca_ecalcalib/automation_replays/test_eflow_v1/phisym/386640/phisymreco_nano_17.root', '/eos/cms/store/group/dpg_ecal/alca_ecalcalib/automation_replays/test_eflow_v1/phisym/386640/phisymreco_nano_7.root', '/eos/cms/store/group/dpg_ecal/alca_ecalcalib/automation_replays/test_eflow_v1/phisym/386640/phisymreco_nano_12.root', '/eos/cms/store/group/dpg_ecal/alca_ecalcalib/automation_replays/test_eflow_v1/phisym/386640/phisymreco_nano_4.root', '/eos/cms/store/group/dpg_ecal/alca_ecalcalib/automation_replays/test_eflow_v1/phisym/386640/phisymreco_nano_15.root', '/eos/cms/store/group/dpg_ecal/alca_ecalcalib/automation_replays/test_eflow_v1/phisym/386642/phisymreco_nano_4.root', '/eos/cms/store/group/dpg_ecal/alca_ecalcalib/automation_replays/test_eflow_v1/phisym/386640/phisymreco_nano_16.root', '/eos/cms/store/group/dpg_ecal/alca_ecalcalib/automation_replays/test_eflow_v1/phisym/386642/phisymreco_nano_8.root', '/eos/cms/store/group/dpg_ecal/alca_ecalcalib/automation_replays/test_eflow_v1/phisym/386640/phisymreco_nano_13.root', '/eos/cms/store/group/dpg_ecal/alca_ecalcalib/automation_replays/test_eflow_v1/phisym/386640/phisymreco_nano_2.root', '/eos/cms/store/group/dpg_ecal/alca_ecalcalib/automation_replays/test_eflow_v1/phisym/386642/phisymreco_nano_5.root', '/eos/cms/store/group/dpg_ecal/alca_ecalcalib/automation_replays/test_eflow_v1/phisym/386640/phisymreco_nano_18.root']}
+  Preprocessing 100% ━━━━━━━━━━━━━━━ 35/35 [ 0:00:01 < 0:00:00 | 31.1   file/s ]
+Merging (local)   3%                  1/35 [ 0:00:01 < -:--:-- | ?    merges/s ]
+     Processing 100% ━━━━━━━━━━━━━━━━ 35/35 [ 0:00:08 < 0:00:00 | 4.6  chunk/s ]
+Merging (local)   3%                   1/35 [ 0:00:08 < -:--:-- | ?   merges/s ]
+runs:  [386640, 386640, 386640, 386642, 386640, ... 386642, 386640, 386640, 386640, 386640]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ... 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] <class 'awkward.highlevel.Array'>
+[0, 1, 2, 4, 5, 8, 9, 10, 11, 12, 13, ... 6, 7, 15, 19, 20, 22, 23, 24, 26, 29, 30] [386640, 386640, 386640, 386642, 386640, ... 386642, 386640, 386640, 386640, 386640]
+35
+Fill: 0 and Run: 386640 
+ hits here 7354874 -- n hits before 0
+Fill: 0 and Run: 386640 
+ hits here 14013307 -- n hits before 7354874
+Fill: 0 and Run: 386640 
+ hits here 7372335 -- n hits before 21368181
+Fill: 0 and Run: 386640 
+ hits here 11780805 -- n hits before 28740516
+Fill: 0 and Run: 386640 
+ hits here 16047587 -- n hits before 40521321
+Fill: 0 and Run: 386640 
+ hits here 12837680 -- n hits before 56568908
+Fill: 0 and Run: 386640 
+ hits here 15699223 -- n hits before 69406588
+Fill: 0 and Run: 386640 
+ hits here 7359861 -- n hits before 85105811
+Fill: 0 and Run: 386640 
+ hits here 19830464 -- n hits before 92465672
+Fill: 0 and Run: 386640 
+ hits here 16784982 -- n hits before 112296136
+Fill: 0 and Run: 386640 
+ hits here 17129098 -- n hits before 129081118
+Fill: 0 and Run: 386640 
+ hits here 17929274 -- n hits before 146210216
+Fill: 0 and Run: 386640 
+ hits here 13089285 -- n hits before 164139490
+Fill: 0 and Run: 386640 
+ hits here 11217595 -- n hits before 177228775
+Fill: 0 and Run: 386640 
+ hits here 19205178 -- n hits before 188446370
+Fill: 0 and Run: 386640 
+ hits here 57908341 -- n hits before 207651548
+Fill: 0 and Run: 386640 
+ hits here 20296116 -- n hits before 265559889
+Fill: 0 and Run: 386640 
+ hits here 65510387 -- n hits before 285856005
+Fill: 0 and Run: 386640 
+ hits here 18052506 -- n hits before 351366392
+Fill: 0 and Run: 386640 
+ hits here 16529736 -- n hits before 369418898
+Fill: 0 and Run: 386640 
+ hits here 7390980 -- n hits before 385948634
+Fill: 0 and Run: 386640 
+ hits here 14535989 -- n hits before 393339614
+Fill: 0 and Run: 386640 
+ hits here 7373576 -- n hits before 407875603
+Fill: 0 and Run: 386642 
+ hits here 50361135 -- n hits before 415249179
+Fill: 0 and Run: 386642 
+ hits here 31372924 -- n hits before 465610314
+Fill: 0 and Run: 386642 
+ hits here 50331307 -- n hits before 496983238
+Fill: 0 and Run: 386642 
+ hits here 36409737 -- n hits before 547314545
+Fill: 0 and Run: 386642 
+ hits here 23681833 -- n hits before 583724282
+Fill: 0 and Run: 386642 
+ hits here 60050050 -- n hits before 607406115
+Fill: 0 and Run: 386642 
+ hits here 88390875 -- n hits before 667456165
+Fill: 0 and Run: 386642 
+ hits here 42312524 -- n hits before 755847040
+Fill: 0 and Run: 386642 
+ hits here 30188200 -- n hits before 798159564
+Fill: 0 and Run: 386642 
+ hits here 155393858 -- n hits before 828347764
+Fill: 0 and Run: 386642 
+ hits here 107995593 -- n hits before 983741622
+Fill: 0 and Run: 386642 
+ hits here 38708106 -- n hits before 1091737215
+So this are the counts merged:: 
+   [0] 
+ These are the final splits: 
+  [35]
+Diveded in 1 IOVS --> These are the initial runs of the IOV: 
+ [386640]
+Diveded in 1 IOVS --> These are the final runs of the IOV: 
+ [386642]
+Number of hits for each IOV:  [[1130445321]]
+Deriving the corrections...
+Eta Weight file provided ...  {'/eos/cms/store/group/dpg_ecal/alca_ecalcalib/automation_replays/test_eflow_v1/eflow-phisym/reweighting/10204/386640_386642/weights.txt'}

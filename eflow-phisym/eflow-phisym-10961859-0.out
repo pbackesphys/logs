@@ -1,0 +1,42 @@
+Received arguments: 10961859.0 0 eflow-phisym ecal_rerecos_v1 386661 10206 eflow_plots/10206/ /eos/cms/store/group/dpg_ecal/alca_ecalcalib/automation_replays/test_eflow_v1/eflow-phisym/eflow/ test_eflow_v1 386661
+1
+eflow-phisym
+2
+ecal_rerecos_v1
+3
+test_eflow_v1
+10961859.0
+0
+/eos/user/p/pbackes/gitlab/ecalphisym
+run numbers: ['386661']
+Running on these files: 
+{'PhiSym': ['/eos/cms/store/group/dpg_ecal/alca_ecalcalib/automation_replays/test_eflow_v1/phisym/386661/phisymreco_nano_4.root', '/eos/cms/store/group/dpg_ecal/alca_ecalcalib/automation_replays/test_eflow_v1/phisym/386661/phisymreco_nano_3.root', '/eos/cms/store/group/dpg_ecal/alca_ecalcalib/automation_replays/test_eflow_v1/phisym/386661/phisymreco_nano_2.root', '/eos/cms/store/group/dpg_ecal/alca_ecalcalib/automation_replays/test_eflow_v1/phisym/386661/phisymreco_nano_1.root', '/eos/cms/store/group/dpg_ecal/alca_ecalcalib/automation_replays/test_eflow_v1/phisym/386661/phisymreco_nano_0.root']}
+  Preprocessing 100% ━━━━━━━━━━━━━━━━━ 5/5 [ 0:00:00 < 0:00:00 | 29.4   file/s ]
+Merging (local)  20% ━━━               1/5 [ 0:00:00 < -:--:-- | ?    merges/s ]
+     Processing 100% ━━━━━━━━━━━━━━━━━━ 5/5 [ 0:00:01 < 0:00:00 | 4.4  chunk/s ]
+Merging (local)  20% ━━━╸               1/5 [ 0:00:01 < -:--:-- | ?   merges/s ]
+runs:  [386661, 386661, 386661, 386661, 386661]
+[0, 0, 0, 0, 0] <class 'awkward.highlevel.Array'>
+[0, 1, 2, 3, 4] [386661, 386661, 386661, 386661, 386661]
+5
+Fill: 0 and Run: 386661 
+ hits here 13670235 -- n hits before 0
+Fill: 0 and Run: 386661 
+ hits here 52848014 -- n hits before 13670235
+Fill: 0 and Run: 386661 
+ hits here 11202180 -- n hits before 66518249
+Fill: 0 and Run: 386661 
+ hits here 62282658 -- n hits before 77720429
+Fill: 0 and Run: 386661 
+ hits here 10304373 -- n hits before 140003087
+So this are the counts merged:: 
+   [0] 
+ These are the final splits: 
+  [5]
+Diveded in 1 IOVS --> These are the initial runs of the IOV: 
+ [386661]
+Diveded in 1 IOVS --> These are the final runs of the IOV: 
+ [386661]
+Number of hits for each IOV:  [[150307460]]
+Deriving the corrections...
+Eta Weight file provided ...  {'/eos/cms/store/group/dpg_ecal/alca_ecalcalib/automation_replays/test_eflow_v1/eflow-phisym/reweighting/10206/386661/weights.txt'}
