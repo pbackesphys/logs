@@ -1,0 +1,23 @@
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+/pool/condor/dir_941353/batch_script.sh: line 30: /home/ecalgit/setup.sh: No such file or directory
+/pool/condor/dir_941353/batch_script.sh: line 32: ecalautomation.py: command not found
+/pool/condor/dir_941353/batch_script.sh: line 36: eflow_processor.py: command not found
+/pool/condor/dir_941353/batch_script.sh: line 43: ecalautomation.py: command not found

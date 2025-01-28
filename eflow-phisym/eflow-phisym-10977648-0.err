@@ -1,0 +1,100 @@
+
+# >>>>>>>>>>>>>>>>>>>>>> ERROR REPORT <<<<<<<<<<<<<<<<<<<<<<
+
+    Traceback (most recent call last):
+      File "/usr/lib/python3.9/site-packages/conda/exceptions.py", line 1125, in __call__
+        return func(*args, **kwargs)
+      File "/usr/lib/python3.9/site-packages/conda/cli/main.py", line 86, in main_subshell
+        exit_code = do_call(args, p)
+      File "/usr/lib/python3.9/site-packages/conda/cli/conda_argparse.py", line 93, in do_call
+        return getattr(module, func_name)(args, parser)
+      File "/usr/lib/python3.9/site-packages/conda/cli/main_init.py", line 50, in execute
+        return initialize(context.conda_prefix, selected_shells, for_user, args.system,
+      File "/usr/lib/python3.9/site-packages/conda/core/initialize.py", line 118, in initialize
+        run_plan_elevated(plan2)
+      File "/usr/lib/python3.9/site-packages/conda/core/initialize.py", line 687, in run_plan_elevated
+        result = subprocess_call(
+      File "/usr/lib/python3.9/site-packages/conda/gateways/subprocess.py", line 100, in subprocess_call
+        stdout, stderr = process.communicate(input=stdin)
+      File "/usr/lib64/python3.9/subprocess.py", line 1134, in communicate
+        stdout, stderr = self._communicate(input, endtime, timeout)
+      File "/usr/lib64/python3.9/subprocess.py", line 1975, in _communicate
+        input_view = memoryview(self._input)
+    TypeError: memoryview: a bytes-like object is required, not 'str'
+
+`$ /usr/bin/conda init bash`
+
+  environment variables:
+                 CIO_TEST=<not set>
+                 CMS_PATH=/cvmfs/cms.cern.ch
+               CONDA_ROOT=/usr/share/conda
+              CONDA_SHLVL=0
+           CURL_CA_BUNDLE=<not set>
+                  MANPATH=/cvmfs/cms.cern.ch/share/man:/usr/share/man:/opt/glite/share/man:::/op
+                          t/puppetlabs/puppet/share/man
+               MODULEPATH=/usr/share/Modules/modulefiles:/etc/modulefiles:/usr/share/modulefiles
+                     PATH=/afs/cern.ch/cms/caf/scripts:/cvmfs/cms.cern.ch/common:/usr/sue/bin:/u
+                          sr/share/Modules/bin:/usr/condabin:/usr/local/bin:/usr/bin:/usr/local/
+                          sbin:/usr/sbin:/opt/puppetlabs/bin
+         PYTHON_CPU_COUNT=1
+       REQUESTS_CA_BUNDLE=<not set>
+          SITECONFIG_PATH=/cvmfs/cms.cern.ch/SITECONF/local
+                 SRM_PATH=/opt/d-cache/srm
+            SSL_CERT_FILE=<not set>
+  __MODULES_SHARE_MANPATH=:1
+
+     active environment : None
+            shell level : 0
+       user config file : /afs/cern.ch/user/p/pbackes/.condarc
+ populated config files : /usr/share/conda/condarc.d/defaults.yaml
+                          /afs/cern.ch/user/p/pbackes/.condarc
+          conda version : 4.14.0
+    conda-build version : not installed
+         python version : 3.9.21.final.0
+       virtual packages : __linux=5.14.0=0
+                          __glibc=2.34=0
+                          __unix=0=0
+                          __archspec=1=x86_64
+       base environment : /usr  (read only)
+      conda av data dir : /usr/etc/conda
+  conda av metadata url : None
+           channel URLs : https://repo.anaconda.com/pkgs/main/linux-64
+                          https://repo.anaconda.com/pkgs/main/noarch
+                          https://repo.anaconda.com/pkgs/r/linux-64
+                          https://repo.anaconda.com/pkgs/r/noarch
+          package cache : /var/cache/conda/pkgs
+                          /afs/cern.ch/user/p/pbackes/.conda/pkgs
+       envs directories : /afs/cern.ch/user/p/pbackes/.conda/envs
+                          /usr/envs
+               platform : linux-64
+             user-agent : conda/4.14.0 requests/2.32.3 CPython/3.9.21 Linux/5.14.0-503.14.1.el9_5.x86_64 rhel/9.5 glibc/2.34
+                UID:GID : 177367:1399
+             netrc file : None
+           offline mode : False
+
+
+An unexpected error has occurred. Conda has prepared the above report.
+
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+/pool/condor/dir_487625/batch_script.sh: line 31: /home/ecalgit/setup.sh: No such file or directory
+/pool/condor/dir_487625/batch_script.sh: line 33: ecalautomation.py: command not found
+/pool/condor/dir_487625/batch_script.sh: line 37: eflow_processor.py: command not found
+/pool/condor/dir_487625/batch_script.sh: line 44: ecalautomation.py: command not found

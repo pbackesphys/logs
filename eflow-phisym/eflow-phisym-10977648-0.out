@@ -1,0 +1,9 @@
+Received arguments: 10977648.0 0 eflow-phisym ecal_rerecos_v1 /eos/cms/store/group/dpg_ecal/alca_ecalcalib/automation_replays/test_eflow_v1/phisym/386661/phisymreco_nano_4.root,/eos/cms/store/group/dpg_ecal/alca_ecalcalib/automation_replays/test_eflow_v1/phisym/386661/phisymreco_nano_0.root,/eos/cms/store/group/dpg_ecal/alca_ecalcalib/automation_replays/test_eflow_v1/phisym/386661/phisymreco_nano_3.root,/eos/cms/store/group/dpg_ecal/alca_ecalcalib/automation_replays/test_eflow_v1/phisym/386661/phisymreco_nano_2.root,/eos/cms/store/group/dpg_ecal/alca_ecalcalib/automation_replays/test_eflow_v1/phisym/386661/phisymreco_nano_1.root 10206 eflow_plots/10206/ /eos/cms/store/group/dpg_ecal/alca_ecalcalib/automation_replays/test_eflow_v1/eflow-phisym/eflow/ test_eflow_v1 386661 /eos/cms/store/group/dpg_ecal/alca_ecalcalib/automation_replays/test_eflow_v1/eflow-phisym/reweighting/10206/386661/weights.txt
+1
+eflow-phisym
+2
+ecal_rerecos_v1
+3
+test_eflow_v1
+10977648.0
+0
